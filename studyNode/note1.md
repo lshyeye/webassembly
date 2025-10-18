@@ -6,8 +6,8 @@ webAssembly（wasm）， 可以使用 C，C++，Rust，Go 编译成 wasm，然�
 3. 音视频剪辑，webcodes， FFmpeg （这个是脚本，如何在浏览器端进行执行，wasm）
 4. 高性能渲染库，3D， webGis， rust（photon），skia
 ### 简单入门
-1. 代码
-2. 将代码编译为 wasm
-3. 在前端加载 wasm
-4. 调用 wasm 提供的方法
+1. 代码  (ts, go, rust, c, c++)
+2. 将代码编译为 wasm (ts -> assemblyscript 来编译， asc), (rust -> wasm-pack 来编译 )
+3. 在前端加载 wasm (release.js)
+4. 调用 wasm 提供的方法 (index.html) 中使用提供的方法
 可以使用 TypeScript 编写 wasm
