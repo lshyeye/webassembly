@@ -1,0 +1,12 @@
+{
+  "targets": {
+    "release": {
+      "outFile": "build/main.wasm",
+      "text": "build/main.wat",
+      "sourceMap": true
+    }
+  },
+  "options": {
+    "buildings": "esm"
+  }
+}
